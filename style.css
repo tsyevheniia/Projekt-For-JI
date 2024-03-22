@@ -1,0 +1,1174 @@
+body {
+  font-family: Arial, sans-serif;
+  /* width: 100%; */
+  overflow-x: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  box-sizing: border-box;
+  max-width: 100%;
+  height: 88px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #00000033;
+  padding: 18px 119px 18px 120px;
+  position: relative;
+}
+
+.navbar .container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 80%;
+}
+.logo {
+  max-width: 13%;
+  height: 32px;
+}
+.paragraph {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 52px;
+  gap: 40px;
+}
+.b1 {
+  text-align: center;
+  padding: 16px 24px;
+  width: 14%;
+  background: #3461ff;
+  border-radius: 70px;
+  border: none;
+}
+.t1 {
+  font-size: 16px;
+  color: #ffffff;
+}
+.section1 {
+  width: 100%;
+  height: 941px;
+  position: relative;
+}
+.section1 .container {
+  width: 90%;
+  gap: 72px;
+  left: 8%;
+  top: 10%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+
+.title-container {
+  width: 45%;
+  height: 464px;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  display: inline-block;
+  max-width: 80%;
+  padding: 0px 0px 0px 0px;
+  font-size: 90px;
+  font-weight: 600;
+  line-height: 98.5px;
+  color: #000000;
+}
+.text {
+  height: 32px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #00000099;
+}
+
+.registation-field {
+  display: flex;
+  gap: 12px;
+}
+
+.registation-field input {
+  width: 52%;
+  padding: 20px 18px 20px 18px;
+  border-radius: 37px;
+  background: #fafafa;
+  border: 1px solid #00000033;
+}
+
+.b2 {
+  width: 27%;
+  padding: 20px 24px 20px 24px;
+  border-radius: 70px;
+  background: #3461ff;
+  border: none;
+}
+
+.registation-field .t2 {
+  display: inline-block;
+  height: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+.image {
+  max-width: 45%;
+  height: 735px;
+  margin-right: 10px;
+}
+.section2 {
+  width: 100%;
+  height: 552px;
+  background: #fafafa;
+  position: relative;
+}
+.section2 h1 {
+  position: absolute;
+  top: 78px;
+  left: 40%;
+  font-size: 36px;
+  font-weight: 500;
+}
+.logos1 {
+  position: absolute;
+  width: 80%;
+  height: 48px;
+  top: 227px;
+  left: 8%;
+}
+.logos2 {
+  position: absolute;
+  width: 80%;
+  height: 48px;
+  top: 369px;
+  left: 8%;
+}
+
+.section3 {
+  position: relative;
+  width: 100%;
+  height: 536px;
+}
+.commitments {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 32%;
+  top: 137px;
+  left: 720px;
+  gap: 20px;
+}
+.section3 h1 {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 0px;
+  letter-spacing: -1px;
+  text-align: left;
+}
+.learn-more {
+  position: absolute;
+  width: 13%;
+  height: 24px;
+  top: 369px;
+  left: 720px;
+  color: #3461ff;
+}
+.learn-more h1 {
+  height: 24px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.revenue {
+  position: absolute;
+  top: 137px;
+  left: 121px;
+}
+.revenue h1 {
+  font-weight: 600;
+  line-height: 86px;
+  letter-spacing: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.revenue p {
+  letter-spacing: 0px;
+  color: #00000099;
+}
+.audience {
+  position: absolute;
+  top: 138px;
+  left: 425px;
+}
+.audience h1 {
+  font-weight: 600;
+  line-height: 86px;
+  letter-spacing: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.audience p {
+  letter-spacing: 0px;
+  color: #00000099;
+}
+.brand {
+  position: absolute;
+  top: 289px;
+  left: 121px;
+}
+.brand h1 {
+  font-weight: 600;
+  line-height: 86px;
+  letter-spacing: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.brand p {
+  letter-spacing: 0px;
+  color: #00000099;
+}
+.award {
+  position: absolute;
+  top: 289px;
+  left: 425px;
+}
+.award h1 {
+  font-weight: 600;
+  line-height: 86px;
+  letter-spacing: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.award p {
+  letter-spacing: 0px;
+  color: #00000099;
+}
+.section4 {
+  position: relative;
+  width: 100%;
+  height: 392px;
+  background: #fafafa;
+}
+.section4-logo {
+  position: absolute;
+  width: 13%;
+  top: 18%;
+  left: 9%;
+}
+
+.section4-logos {
+  position: absolute;
+  display: flex;
+  width: 13%;
+  top: 42%;
+  left: 9%;
+}
+.contact {
+  position: absolute;
+  display: flex;
+  width: 13%;
+  height: 64px;
+  top: 70%;
+  left: 9%;
+  border-radius: 69px;
+  padding: 1% 2.3% 1% 2.2%;
+  background: #3461ff;
+  border: none;
+}
+.t3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+.section4-text {
+  display: flex;
+  position: absolute;
+  width: 40%;
+  top: 30%;
+  left: 55%;
+  gap: 12%;
+  line-height: 20px;
+  text-align: left;
+}
+.section4-container1,
+.section4-container2,
+.section4-container3 {
+  display: flex;
+  flex-direction: column;
+  gap: 33%;
+  height: 155px;
+}
+
+.footer {
+  display: flex;
+  height: 119px;
+  background: #000000;
+  position: relative;
+  font-size: 14px;
+  color: #ffffff;
+}
+.footer-paragraph {
+  position: absolute;
+  display: flex;
+  width: 30%;
+  top: 45%;
+  left: 70%;
+  gap: 30%;
+}
+.ending {
+  position: absolute;
+  width: 25%;
+  top: 45%;
+  left: 7%;
+}
+.section5 {
+  width: 100%;
+  height: 804px;
+  position: relative;
+}
+.section5-textcontainer {
+  width: 33%;
+  position: relative;
+  height: 209px;
+  top: 100px;
+  left: 120px;
+}
+.section5-textcontainer h1 {
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 86px;
+  letter-spacing: -1px;
+  margin: 0px;
+}
+.section5-textcontainer p {
+  font-size: 18px;
+  line-height: 36px;
+  color: #00000099;
+}
+.section5-image {
+  position: relative;
+  height: 311px;
+  top: 150px;
+  left: 120px;
+}
+.section5-blocks {
+  width: 52%;
+  top: 90px;
+  left: 720px;
+  position: absolute;
+}
+.block {
+  display: flex;
+  flex-direction: row;
+  height: 119px;
+  gap: 32px;
+  margin-top: 30px;
+}
+.text-block {
+  display: flex;
+  flex-direction: column;
+  height: 119px;
+}
+.section5-blocks h1 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 43px;
+  margin: 0px;
+}
+
+.section5-blocks p {
+  width: 73%;
+  line-height: 32px;
+  color: #00000099;
+}
+.section6 {
+  position: relative;
+  width: 100%;
+  height: 920px;
+}
+.section6 h1 {
+  position: absolute;
+  top: 122px;
+  left: 43%;
+  font-size: 64px;
+  font-weight: 500;
+  margin-top: 0px;
+}
+.section6-paragraph {
+  margin-top: 0px;
+  position: absolute;
+  top: 24%;
+  left: 45%;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #00000099;
+}
+.brands {
+  position: absolute;
+  top: 304px;
+  left: 10%;
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.section6-apple,
+.section6-cola,
+.section6-nike {
+  max-width: 33%;
+  height: 378px;
+}
+.section6-apple img,
+.section6-cola img,
+.section6-nike img {
+  max-width: 100%;
+  height: 324px;
+  border-radius: 40px;
+}
+.apple-paragraph,
+.cola-paragraph,
+.nike-paragraph {
+  margin-top: 0px;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 38px;
+  text-align: center;
+}
+.section6-button {
+  position: absolute;
+  width: 14%;
+  height: 64px;
+  top: 734px;
+  left: 45%;
+  padding: 16px 48px 16px 48px;
+  border-radius: 64px;
+  gap: 10px;
+  border: none;
+  background: #3461ff;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.section7 {
+  position: relative;
+  width: 100%;
+  height: 573px;
+}
+.banner {
+  position: relative;
+  width: 80%;
+  height: 371px;
+  top: 100px;
+  left: 120px;
+  border-radius: 32px;
+  background: #3561ff;
+}
+.banner h1 {
+  position: absolute;
+  width: 32%;
+  height: 174px;
+  top: 91px;
+  left: 74px;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 87px;
+  letter-spacing: -1px;
+  color: #ffffff;
+  margin: 0px;
+}
+.banner-container {
+  position: absolute;
+  width: 30%;
+  top: 32%;
+  left: 50%;
+}
+.banner-container p {
+  font-size: 20px;
+  line-height: 40px;
+  color: #ffffff;
+}
+.banner-button {
+  height: 64px;
+  padding: 16px 48px 16px 48px;
+  border-radius: 64px;
+  border: none;
+  font-size: 24px;
+}
+.section8 {
+  position: relative;
+  width: 100%;
+  height: 636px;
+}
+.team {
+  position: absolute;
+  top: 20%;
+  left: 121px;
+  max-width: 50%;
+}
+.team-photo1 {
+  position: absolute;
+  display: flex;
+  height: 190px;
+  gap: 20px;
+  max-width: 50%;
+}
+.team-photo2 {
+  position: absolute;
+  display: flex;
+  height: 190px;
+  top: 210px;
+  gap: 20px;
+  max-width: 50%;
+}
+.section8 h1 {
+  position: absolute;
+  max-width: 40%;
+  top: 20%;
+  left: 56%;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 86px;
+  letter-spacing: -1px;
+}
+.section8 p {
+  position: absolute;
+  width: 30%;
+  top: 40%;
+  left: 56%;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #00000099;
+}
+.section8-button {
+  position: absolute;
+  max-width: 40%;
+  height: 64px;
+  top: 73%;
+  left: 56%;
+  padding: 16px 48px 16px 48px;
+  border-radius: 69px;
+  border: none;
+  background: #3461ff;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  color: #ffffff;
+}
+.section9 {
+  position: relative;
+  width: 100%;
+  height: 666px;
+}
+.section9 h1 {
+  position: absolute;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 86px;
+  letter-spacing: -1px;
+  top: 94px;
+  left: 120px;
+  margin: 0px;
+}
+.section9-containers {
+  position: absolute;
+  display: flex;
+  top: 248px;
+  left: 120px;
+  gap: 100px;
+}
+.section9-container1 {
+  width: 513px;
+  height: 312px;
+  border-radius: 30px;
+  background: #3461ff;
+}
+.client-photo {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 314px;
+  height: 85px;
+  padding: 20px;
+}
+.client-photo img {
+  width: 85px;
+  height: 85px;
+}
+.client-info {
+  left: 120px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 209px;
+  height: 75px;
+  color: #ffffff;
+  gap: 5px;
+}
+.client-name {
+  width: 320px;
+  height: 38px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0px;
+}
+.client-position {
+  width: 137px;
+  height: 27px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0px;
+}
+
+.section9-container1-info {
+  position: absolute;
+  width: 400px;
+  height: 128px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffffcc;
+  top: 120px;
+  padding: 20px;
+}
+.section9-container2 {
+  width: 513px;
+  height: 312px;
+  border-radius: 30px;
+  background: #f8f9ff;
+}
+.section9-container3 {
+  width: 513px;
+  height: 312px;
+  border-radius: 30px;
+  background: #f8f9ff;
+}
+.eclipse1 {
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  top: 105px;
+  left: 1132px;
+  background: #f8f9ff;
+  border-radius: 50%;
+}
+.gg-arrow-long-left {
+  position: absolute;
+  width: 49px;
+  height: 49px;
+  top: 35px;
+  left: 30px;
+  color: lightgrey;
+}
+
+.eclipse2 {
+  position: relative;
+  width: 85px;
+  height: 85px;
+  top: 105px;
+  left: 1237px;
+  background: #3461ff;
+  border-radius: 50%;
+}
+
+.gg-arrow-long-right {
+  position: absolute;
+  width: 49px;
+  height: 49px;
+  top: 35px;
+  left: 30px;
+  color: white;
+}
+.section10 {
+  position: relative;
+  width: 100%;
+  height: 700px;
+}
+.vertical-line1,
+.vertical-line2,
+.vertical-line3,
+.vertical-line4,
+.vertical-line5,
+.vertical-line6 {
+  border-left: 1px solid #3a3838;
+  height: 455px;
+  position: absolute;
+  top: 0;
+}
+.hl1,
+.hl2 {
+  position: absolute;
+  width: 100%;
+  border: 1px solid #3a3838;
+}
+
+.banner2 {
+  position: relative;
+  width: 80%;
+  height: 66%;
+  top: 122px;
+  left: 122px;
+  border: 1.31px solid #d9d9d9;
+  background: #232038;
+  border-radius: 35px;
+}
+.banner2 h1 {
+  position: absolute;
+  width: 40%;
+  top: 50px;
+  left: 60px;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 63px;
+  color: #ffffff;
+}
+.banner2 button {
+  position: absolute;
+  width: 17%;
+  top: 320px;
+  left: 60px;
+  padding: 16px 48px 16px 48px;
+  border-radius: 69px;
+  background: #3461ff;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  border: none;
+}
+.eclipse3 {
+  position: absolute;
+  width: 30%;
+  height: 352px;
+  top: 50px;
+  left: 65%;
+  background: #e0ff22;
+  border-radius: 50%;
+}
+.vector1 {
+  position: absolute;
+  width: 24%;
+  height: 94.55px;
+  top: 35%;
+  left: 15%;
+}
+.vector2 {
+  position: absolute;
+  width: 45%;
+  height: 81.04px;
+  top: 35%;
+  left: 43%;
+}
+.section11 {
+  position: relative;
+  width: 100%;
+  height: 582px;
+  padding: 12% 0px 0px 10%;
+}
+.section11-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12%;
+  width: 90%;
+  height: 50%;
+}
+.section11-left-part {
+  width: 50%;
+}
+.section11-left-part p {
+  height: 36px;
+  font-size: 20px;
+  line-height: 36px;
+}
+.section11-left-part-item {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  border-top: 1px solid #00000033;
+}
+.plus {
+  position: absolute;
+  left: 47%;
+}
+.plus img {
+  height: 24px;
+}
+.section11-right-part {
+  display: flex;
+  flex-direction: column;
+  width: 38%;
+  height: 300px;
+  gap: 42px;
+}
+.section11-right-part h1 {
+  height: 52px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: -1px;
+  margin: 0px;
+}
+.section11-paragraph {
+  width: auto;
+  height: 72px;
+  font-size: 22px;
+  line-height: 36px;
+  color: #00000099;
+  margin: 0px;
+}
+.section11-form {
+  max-width: 100%;
+  display: flex;
+  width: 464px;
+  gap: 20px;
+}
+.section11-form input {
+  width: 70%;
+  padding: 20px 18px 20px 18px;
+  border-radius: 37px;
+  background: #fafafa;
+  border: none;
+}
+.section11-form button {
+  width: 30%;
+  padding: 20px 24px 20px 24px;
+  border-radius: 70px;
+  background: #3461ff;
+  border: none;
+  color: #fafafa;
+}
+.faq {
+  font-size: 20px;
+  font-weight: 600;
+  color: #3461ff;
+}
+@media (max-width: 1024px) {
+  .section1 {
+    height: 600px;
+  }
+  .navbar .container {
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    height: 388px;
+    gap: 20px;
+  }
+  .navbar {
+    height: 200px;
+  }
+  .logo {
+    width: 18%;
+    height: 32px;
+  }
+  .b1 {
+    width: 18%;
+  }
+  .section1 .container {
+    width: 90%;
+    height: 535px;
+    align-items: center;
+    gap: 150px;
+    left: 5%;
+    right: 5%;
+    top: 5%;
+  }
+  .title-container {
+    gap: 5%;
+  }
+  .title {
+    font-size: 40px;
+    line-height: 68px;
+    font-weight: 400;
+    height: 60%;
+    padding-bottom: 10%;
+  }
+  .text {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .b2 {
+    width: 43%;
+  }
+  .image {
+    width: 45%;
+    height: 555px;
+    margin-right: 10px;
+  }
+  .section2 h1 {
+    width: 40%;
+    height: 49px;
+    top: 78px;
+    left: 30%;
+    font-size: 26px;
+    line-height: 49px;
+  }
+  .section2 img {
+    width: 80%;
+    left: 10%;
+  }
+  .commitments {
+    width: 40%;
+    height: 170px;
+    top: 20%;
+    left: 55%;
+  }
+  .learn-more {
+    width: 20%;
+    height: 24px;
+    top: 60%;
+    left: 55%;
+  }
+  .revenue {
+    top: 20%;
+    left: 5%;
+  }
+  .audience {
+    top: 20%;
+    left: 30%;
+  }
+  .brand {
+    top: 50%;
+    left: 5%;
+  }
+  .award {
+    top: 50%;
+    left: 30%;
+  }
+  .section5 h1 {
+    width: 100%;
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .section5-textcontainer {
+    left: 5%;
+    width: 40%;
+  }
+  .section5 p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .section5-image {
+    width: 40%;
+    height: 211px;
+    left: 5%;
+    top: 15%;
+  }
+  .section5-blocks {
+    width: 47%;
+    top: 10%;
+    left: 53%;
+  }
+  .block {
+    margin-top: 8%;
+  }
+  .block img {
+    width: 80px;
+    height: 80px;
+  }
+  .section5-blocks h1 {
+    font-weight: 400;
+    font-size: 26px;
+  }
+  .section5-blocks p {
+    width: 100%;
+    margin-top: 0%;
+    font-size: 13px;
+    line-height: 32px;
+  }
+  .section6 h1 {
+    width: 50%;
+    top: 100px;
+    left: 38%;
+    font-size: 60px;
+    line-height: 50px;
+    margin-bottom: 0px;
+  }
+  .section6-paragraph {
+    top: 180px;
+    left: 40%;
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .brands {
+    top: 30%;
+    left: 5%;
+  }
+  .section6-apple,
+  .section6-cola,
+  .section6-nike {
+    width: 30%;
+    height: 378px;
+  }
+  .section6-button {
+    width: 22%;
+    height: 64px;
+    top: 80%;
+    left: 40%;
+  }
+  .banner h1 {
+    width: 40%;
+    top: 20%;
+    left: 5%;
+    font-size: 50px;
+  }
+  .banner-container {
+    width: 40%;
+    top: 30%;
+    left: 50%;
+  }
+  .banner-container p {
+    font-size: 23px;
+    line-height: 34px;
+  }
+  .team-photo1,
+  .team-photo2 {
+    height: 120px;
+    gap: 10px;
+    width: 100%;
+    left: 0%;
+  }
+  .team-photo2 {
+    top: 150px;
+  }
+  .team {
+    left: 5%;
+    width: 50%;
+  }
+  .section8 {
+    height: 500px;
+  }
+  .section8 h1 {
+    width: 50%;
+    top: 10%;
+    left: 50%;
+    font-size: 50px;
+  }
+  .section8 p {
+    width: 50%;
+    top: 30%;
+    left: 50%;
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .section8-button {
+    height: 12%;
+    top: 50%;
+    left: 50%;
+  }
+  .section9 h1 {
+    top: 10%;
+    left: 5%;
+    font-size: 50px;
+  }
+  .section9-containers {
+    top: 30%;
+    left: 5%;
+    gap: 5%;
+  }
+  .section9-container1,
+  .section9-container2,
+  .section9-container3 {
+    height: 312px;
+    max-width: 400px;
+  }
+  .eclipse1 {
+    top: 10%;
+    left: 80%;
+  }
+  .eclipse2 {
+    top: 10%;
+    left: 90%;
+  }
+  .banner2 {
+    top: 10%;
+    left: 5%;
+    width: 90%;
+  }
+  .banner2 h1 {
+    top: 20%;
+    left: 10%;
+    font-size: 40px;
+  }
+  .banner2 button {
+    top: 60%;
+    left: 10%;
+    width: 25%;
+  }
+  .eclipse3 {
+    top: 20%;
+    left: 60%;
+    height: 280px;
+  }
+  .section11 {
+    padding: 20% 0% 0% 5%;
+  }
+  .section11-right-part h1 {
+    font-size: 34px;
+  }
+  .section11-right-part p {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .section11-form {
+    width: 100%;
+    gap: 3%;
+  }
+  .section11-form input {
+    width: 60%;
+  }
+  .section11-form button {
+    width: 40%;
+  }
+  .section4-logo {
+    width: 20%;
+    top: 20%;
+    left: 5%;
+  }
+  .section4-logos {
+    width: 20%;
+    top: 40%;
+    left: 5%;
+  }
+  .contact {
+    width: 20%;
+    height: 64px;
+    top: 60%;
+    left: 5%;
+    padding: 2% 3.3% 2% 3.3%;
+  }
+  .section4-text {
+    width: 50%;
+    top: 30%;
+    left: 50%;
+    gap: 5%;
+  }
+  .ending {
+    width: 30%;
+    top: 40%;
+    left: 5%;
+  }
+  .footer-paragraph {
+    width: 30%;
+    top: 40%;
+    left: 60%;
+    gap: 30%;
+  }
+}
